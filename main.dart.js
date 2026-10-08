@@ -60852,7 +60852,7 @@ J.a7(m,"type",a)
 if(b!=null)J.a7(m,"source",b)
 if(c!=null)J.a7(m,"table_code",c)
 J.a7(m,"plateforme",A.cE9())
-J.a7(m,"app_version","1.6.0+77")
+J.a7(m,"app_version","1.7.0+78")
 s=7
 return A.f(k.eV(0,m),$async$LD)
 case 7:p=2
@@ -85174,7 +85174,7 @@ $2(a,b){var s=A.b5(a)
 $.h=B.h.i(B.a21,s.gan())?s.gan():"en"
 $.aH.x2$.push(new A.aSw(this.a,a))
 s=$.cAS()
-return new A.l9(new A.ae8(new A.ZV(new A.aiE("1.6.0+77",b==null?B.bg:b,null),null),null),s)},
+return new A.l9(new A.ae8(new A.ZV(new A.aiE("1.7.0+78",b==null?B.bg:b,null),null),null),s)},
 $S:1129}
 A.aSw.prototype={
 $1(a){var s,r,q=this.a
@@ -87511,7 +87511,7 @@ h=A.cE9()
 g=b.length>60?B.d.af(b,0,60):b
 f=a0.length>80?B.d.af(a0,0,80):a0
 s=4
-return A.f(j.oi(A.m(["event_id",l,"occurred_at",i,"platform",h,"app_version","1.6.0+77","build_mode","release","feature",g,"model",f,"prompt_tokens",a1,"output_tokens",a,"grounded",c,"cost_usd",A.fZ(B.i.T(n,6)),"cost_eur",A.fZ(B.i.T(m,6))],t.N,t.z)),$async$QM)
+return A.f(j.oi(A.m(["event_id",l,"occurred_at",i,"platform",h,"app_version","1.7.0+78","build_mode","release","feature",g,"model",f,"prompt_tokens",a1,"output_tokens",a,"grounded",c,"cost_usd",A.fZ(B.i.T(n,6)),"cost_eur",A.fZ(B.i.T(m,6))],t.N,t.z)),$async$QM)
 case 4:A.ah(B.aB,"AI_COST","Logged AI usage: "+a0+" ("+b+") \u2022 In: "+a1+" tokens, Out: "+a+" tokens \u2022 Cost: "+B.i.T(m,5)+"\u20ac ($"+B.i.T(n,5)+")",null,null)
 q=k
 s=1
@@ -91387,7 +91387,7 @@ r.push(A.ci(!1,B.ac,m,m,!0,m,m,m,!0,m,B.aPS,m,m,m,m,new A.c69(n,b2),!1,m,m,m,m,m
 r.push(A.ci(!1,B.ac,m,m,!0,m,m,m,!0,m,B.aMH,m,m,m,m,n.gb1W(),!1,m,m,m,m,m,m,m,A.e(A.c(b2?a3:A.b(a3,"Delete my account"),B.f),m,m,m,m,m,B.cBO,m,m,m),m,B.aRN,m))
 r.push(B.a4)
 a5=A.qj("assets/images/logo_transparent_64.png",m,m,36,36)
-r.push(new A.acd(B.aRR,"Chatmelier","1.6.0+77",a5,A.c(b2?a4:A.b(a4,"\xa9 2026 Chatmelier \u2022 Smart AI Wine Cellar Manager\nCompliant with GDPR & Apple/Google Store Guidelines"),B.f),m))
+r.push(new A.acd(B.aRR,"Chatmelier","1.7.0+78",a5,A.c(b2?a4:A.b(a4,"\xa9 2026 Chatmelier \u2022 Smart AI Wine Cellar Manager\nCompliant with GDPR & Apple/Google Store Guidelines"),B.f),m))
 return A.dv(r,m,B.ep,m,B.a7,!1)}}
 A.c6x.prototype={
 $0(){return this.a.ax=this.b},
@@ -134019,7 +134019,7 @@ r=a.f
 s+=r!=null?"\n"+r.l(0):""}else s=null
 r=a.a
 q=t.N
-return A.m(["user_id",p,"device_id","Web Browser","platform","web","app_version","1.6.0+77","tag",a.c,"level",a.b.b,"message",a.d,"error_details",s,"created_at",r.dB(),"metadata",A.m(["utc_offset_min",B.k.b7(r.gam0().a,6e7)],q,t.S)],q,t.X)},
+return A.m(["user_id",p,"device_id","Web Browser","platform","web","app_version","1.7.0+78","tag",a.c,"level",a.b.b,"message",a.d,"error_details",s,"created_at",r.dB(),"metadata",A.m(["utc_offset_min",B.k.b7(r.gam0().a,6e7)],q,t.S)],q,t.X)},
 $S:815}
 A.aMq.prototype={
 $1(a){return B.h.i(this.a,a)},
