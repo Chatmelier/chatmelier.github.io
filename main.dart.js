@@ -61608,7 +61608,7 @@ J.a5(m,"type",a)
 if(b!=null)J.a5(m,"source",b)
 if(c!=null)J.a5(m,"table_code",c)
 J.a5(m,"plateforme",A.cHr())
-J.a5(m,"app_version","1.8.0+79")
+J.a5(m,"app_version","1.8.1+80")
 s=7
 return A.f(k.eW(0,m),$async$LR)
 case 7:p=2
@@ -86704,7 +86704,7 @@ $2(a,b){var s=A.b2(a)
 $.h=B.h.i(B.a2k,s.gan())?s.gan():"en"
 $.aH.x2$.push(new A.aTD(this.a,a))
 s=$.cE8()
-return new A.lg(new A.aeG(new A.a_d(new A.aje("1.8.0+79",b==null?B.be:b,null),null),null),s)},
+return new A.lg(new A.aeG(new A.a_d(new A.aje("1.8.1+80",b==null?B.be:b,null),null),null),s)},
 $S:1261}
 A.aTD.prototype={
 $1(a){var s,r,q=this.a
@@ -89192,7 +89192,7 @@ h=A.cHr()
 g=b.length>60?B.d.ag(b,0,60):b
 f=a0.length>80?B.d.ag(a0,0,80):a0
 s=4
-return A.f(j.oo(A.r(["event_id",l,"occurred_at",i,"platform",h,"app_version","1.8.0+79","build_mode","release","feature",g,"model",f,"prompt_tokens",a1,"output_tokens",a,"grounded",c,"cost_usd",A.h3(B.i.T(n,6)),"cost_eur",A.h3(B.i.T(m,6))],t.N,t.z)),$async$Rt)
+return A.f(j.oo(A.r(["event_id",l,"occurred_at",i,"platform",h,"app_version","1.8.1+80","build_mode","release","feature",g,"model",f,"prompt_tokens",a1,"output_tokens",a,"grounded",c,"cost_usd",A.h3(B.i.T(n,6)),"cost_eur",A.h3(B.i.T(m,6))],t.N,t.z)),$async$Rt)
 case 4:A.ah(B.aB,"AI_COST","Logged AI usage: "+a0+" ("+b+") \u2022 In: "+a1+" tokens, Out: "+a+" tokens \u2022 Cost: "+B.i.T(m,5)+"\u20ac ($"+B.i.T(n,5)+")",null,null)
 q=k
 s=1
@@ -93070,7 +93070,7 @@ r.push(A.ce(!1,B.aa,m,m,!0,m,m,m,!0,m,B.aQz,m,m,m,m,new A.c8E(n,b2),!1,m,m,m,m,m
 r.push(A.ce(!1,B.aa,m,m,!0,m,m,m,!0,m,B.aNn,m,m,m,m,n.gb3m(),!1,m,m,m,m,m,m,m,A.e(A.c(b2?a3:A.b(a3,"Delete my account"),B.f),m,m,m,m,m,B.cE7,m,m,m),m,B.aSx,m))
 r.push(B.a4)
 a5=A.qt("assets/images/logo_transparent_64.png",m,m,36,36)
-r.push(new A.acJ(B.aSB,"Chatmelier","1.8.0+79",a5,A.c(b2?a4:A.b(a4,"\xa9 2026 Chatmelier\nPublished by Flavien Daussy, London"),B.f),m))
+r.push(new A.acJ(B.aSB,"Chatmelier","1.8.1+80",a5,A.c(b2?a4:A.b(a4,"\xa9 2026 Chatmelier\nPublished by Flavien Daussy, London"),B.f),m))
 return A.dy(r,m,B.eq,m,B.a7,!1)}}
 A.c91.prototype={
 $0(){return this.a.ax=this.b},
@@ -136983,7 +136983,7 @@ r=a.f
 s+=r!=null?"\n"+r.l(0):""}else s=null
 r=a.a
 q=t.N
-return A.r(["user_id",p,"device_id","Web Browser","platform","web","app_version","1.8.0+79","tag",a.c,"level",a.b.b,"message",a.d,"error_details",s,"created_at",r.dB(),"metadata",A.r(["utc_offset_min",B.k.b0(r.gamS().a,6e7)],q,t.S)],q,t.X)},
+return A.r(["user_id",p,"device_id","Web Browser","platform","web","app_version","1.8.1+80","tag",a.c,"level",a.b.b,"message",a.d,"error_details",s,"created_at",r.dB(),"metadata",A.r(["utc_offset_min",B.k.b0(r.gamS().a,6e7)],q,t.S)],q,t.X)},
 $S:842}
 A.aNb.prototype={
 $1(a){return B.h.i(this.a,a)},
